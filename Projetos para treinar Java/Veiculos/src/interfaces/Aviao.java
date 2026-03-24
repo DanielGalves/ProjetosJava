@@ -7,11 +7,9 @@ import java.math.BigDecimal;
 
 public interface Aviao {
 
-    String modelo = "";
-    Combustivel combustivel = null;
-    Cor cor = null;
+     void decolar();
+     void pousar();
 
-    void decolar();
 
 
 

@@ -10,7 +10,7 @@ public class Aviao implements interfaces.Aviao {
     String modelo;
     Cor cor;
     Combustivel combustivel;
-    BigDecimal acelerar;
+
 
     public Aviao(String modelo,Cor cor, Combustivel combustivel){
         this.modelo = modelo;
@@ -28,4 +28,7 @@ public class Aviao implements interfaces.Aviao {
     public void decolar() {
         System.out.println("Para que avião decolar precisa atingir a velociadade minima de 200km/h");
     }
+
+    @Override
+    public void pousar(){}
 }
