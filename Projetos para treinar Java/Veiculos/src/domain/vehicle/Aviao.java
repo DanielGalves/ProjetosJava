@@ -10,6 +10,7 @@ public class Aviao implements interfaces.Aviao {
     String modelo;
     Cor cor;
     Combustivel combustivel;
+    boolean voando = false;
 
 
     public Aviao(String modelo,Cor cor, Combustivel combustivel){
