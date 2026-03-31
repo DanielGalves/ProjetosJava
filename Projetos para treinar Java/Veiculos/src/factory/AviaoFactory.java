@@ -1,10 +1,10 @@
 package factory;
 
 import domain.vehicle.Aviao;
-import enums.Combustivel;
+import enums.TipoCombustivel;
 import enums.Cor;
 
 public class AviaoFactory {
 
-    Aviao aviao = new Aviao("Jato", Cor.BRANCO, Combustivel.QUEROZENE);
+    Aviao aviao = new Aviao("Jato", Cor.BRANCO, TipoCombustivel.QUEROZENE);
 }

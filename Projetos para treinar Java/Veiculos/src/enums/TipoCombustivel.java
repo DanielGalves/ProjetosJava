@@ -1,6 +1,6 @@
 package enums;
 
-public enum Combustivel {
+public enum TipoCombustivel {
 
     ETANOL,GAZOLINA,DIESEL,QUEROZENE;
 }

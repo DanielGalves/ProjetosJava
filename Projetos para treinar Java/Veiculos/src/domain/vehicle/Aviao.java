@@ -1,19 +1,17 @@
 package domain.vehicle;
 
-import enums.Combustivel;
+import enums.TipoCombustivel;
 import enums.Cor;
-
-import java.math.BigDecimal;
 
 public class Aviao implements interfaces.Aviao {
 
     String modelo;
     Cor cor;
-    Combustivel combustivel;
+    TipoCombustivel combustivel;
     boolean voando = false;
 
 
-    public Aviao(String modelo,Cor cor, Combustivel combustivel){
+    public Aviao(String modelo,Cor cor, TipoCombustivel combustivel){
         this.modelo = modelo;
         this.cor = cor;
         this.combustivel = combustivel;
@@ -63,11 +61,11 @@ public class Aviao implements interfaces.Aviao {
         this.cor = cor;
     }
 
-    public Combustivel getCombustivel() {
+    public TipoCombustivel getCombustivel() {
         return combustivel;
     }
 
-    public void setCombustivel(Combustivel combustivel) {
+    public void setCombustivel(TipoCombustivel combustivel) {
         this.combustivel = combustivel;
     }
 
